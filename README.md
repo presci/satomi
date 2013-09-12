@@ -1,4 +1,4 @@
-satomi WebSocket Comet
+satomi
 ======================
 
 To compile this example you need rebar in your PATH.
