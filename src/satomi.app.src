@@ -2,11 +2,12 @@
  [
   {description, ""},
   {vsn, "1"},
-  {registered, []},
+  {modules, []},
+  {registered, [satomi_sup]},
   {applications, [
                   kernel,
-                  stdlib
-
+                  stdlib,
+		cowboy
                  ]},
   {mod, { satomi_app, []}},
   {env, []}

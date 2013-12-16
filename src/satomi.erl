@@ -23,7 +23,6 @@ ensure_start(App)->
 
 start()->
     ok = ensure_start(crypto),
-    ok = ensure_start(sasl),
     ok = ensure_start(ranch),
     ok = ensure_start(cowlib),
     ok = ensure_start(cowboy),
